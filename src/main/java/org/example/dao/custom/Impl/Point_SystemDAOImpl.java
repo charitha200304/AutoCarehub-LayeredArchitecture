@@ -52,4 +52,11 @@ public class Point_SystemDAOImpl implements Point_SystemDAO {
         rst.next();
         return new Point_System(id + "", rst.getString("Total_point"), rst.getString("Cus_id"), rst.getString("Sh_id"));
     }
+
+    @Override
+    public Point_System fintlastPoinId(String point_id) throws SQLException, ClassNotFoundException {
+        ResultSet rst = SQLUtil.execute("SELECT * FROM point_system ORDER BY Point_id DESC LIMIT 1", point_id + "");
+        rst.next();
+        return new Point_System(point_id + "", rst.getString("Total_point"), rst.getString("Cus_id"), rst.getString("Sh_id"));
+    }
 }

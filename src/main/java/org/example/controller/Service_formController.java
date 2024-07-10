@@ -15,6 +15,7 @@ import org.example.bo.BOFactory;
 import org.example.bo.custom.*;
 import org.example.dto.Inventory_itemDTO;
 import org.example.dto.VehicleDTO;
+import org.example.entity.Inventory_item;
 import org.example.entity.Point_System;
 import org.example.entity.Service;
 import org.example.entity.Vehicle;
@@ -187,12 +188,12 @@ public class Service_formController {
 
     public void cmbItemIdOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
         String itemId = cmbItemId.getValue();
-        ResultSet resultSet = (ResultSet) inventory_itemBO.searchInventoryItem(itemId);
-        if (resultSet.next()){
-            lblItemName.setText(resultSet.getString(2));
-            lblItemPrice.setText(resultSet.getString(3));
-            lblItemQty.setText(resultSet.getString(4));
-        }
+        Inventory_item item = inventory_itemBO.searchInventoryItem(itemId);
+        if (item != null) {
+            lblItemName.setText(item.getDescription());
+            lblItemPrice.setText(String.valueOf(item.getPrice()));
+            lblItemQty.setText(String.valueOf(item.getQty_On_Hand()));
+}
     }
 
     public void btnAddToCartOnAction() {

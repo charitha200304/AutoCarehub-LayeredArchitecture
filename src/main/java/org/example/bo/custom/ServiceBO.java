@@ -18,5 +18,5 @@ public interface ServiceBO extends SuperBO {
 
     String fintLastServiceId();
 
-    boolean saveService(Service service, ObservableList<ItemTm> observableList);
+    boolean saveService(Service service, ObservableList<ItemTm> observableList) throws SQLException;
 }

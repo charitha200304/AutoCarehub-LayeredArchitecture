@@ -5,13 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8c01a13-d39f-4114-94a5-43a289c5358e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/SQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Inventory_Service_Details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Point_SystemBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Point_SystemBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/ServiceBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/ServiceBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ServiceBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ServiceBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Service_formController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Service_formController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Inventory_itemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Inventory_itemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Point_SystemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Point_SystemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/ServiceDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/ServiceDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/VehicleDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/VehicleDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Point_SystemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Point_SystemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDetailsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDetailsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Point_SystemBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Point_SystemBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/ServiceBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/ServiceBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/ServiceBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/ServiceBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Service_formController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/Service_formController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Inventory_itemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Inventory_itemDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Point_SystemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Point_SystemDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/ServiceDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/ServiceDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/VehicleDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/VehicleDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Point_SystemDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Point_SystemDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/ServiceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/ServiceDAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +49,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2j3y37maLORXNH7uf2P53al9Oyc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,8 +58,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/AutoCarehub-Layered-Architecture"
+    "last_opened_file_path": "C:/Users/Ms Computers/IdeaProjects/AutoCarehub-Layered-Architecture"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,10 +73,23 @@
       <updated>1720629852926</updated>
       <workItem from="1720629854277" duration="181000" />
       <workItem from="1720630057294" duration="716000" />
+      <workItem from="1720631269970" duration="17304000" />
     </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1720631326126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720631326126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
   </component>
 </project>

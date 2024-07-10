@@ -3,6 +3,7 @@ package org.example.dao.custom.Impl;
 import org.example.dao.SQLUtil;
 import org.example.dao.custom.Inventory_itemDAO;
 import org.example.entity.Inventory_item;
+import org.example.entity.Vehicle;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -37,8 +38,10 @@ public class Inventory_itemDAOImpl implements Inventory_itemDAO {
     }
 
     @Override
-    public <T> T searchById(String id) throws SQLException, ClassNotFoundException {
-        return null;
+    public Inventory_item searchById(String id) throws SQLException, ClassNotFoundException {
+        ResultSet resultSet = SQLUtil.execute("SELECT * FROM inventory_item WHERE Item_id=?",id);
+        resultSet.next();
+        return new Inventory_item(id + "", resultSet.getString("Description"), resultSet.getString("Price"), resultSet.getString("Qty_On_Hand"));
     }
 
     @Override

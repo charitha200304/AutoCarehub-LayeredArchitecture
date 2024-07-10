@@ -2,6 +2,7 @@ package org.example.dao.custom.Impl;
 
 import org.example.dao.SQLUtil;
 import org.example.dao.custom.VehicleDAO;
+import org.example.entity.Customer;
 import org.example.entity.Vehicle;
 
 import java.sql.ResultSet;
@@ -37,8 +38,10 @@ public class VehicleDAOImpl implements VehicleDAO {
     }
 
     @Override
-    public <T> T searchById(String id) throws SQLException, ClassNotFoundException {
-        return null;
+    public Vehicle searchById(String id) throws SQLException, ClassNotFoundException {
+        ResultSet resultSet = SQLUtil.execute("SELECT * FROM vehicle WHERE V_id=?",id);
+        resultSet.next();
+        return new Vehicle(id + "", resultSet.getString("Model"), resultSet.getString("Type"), resultSet.getString("Cus_id"));
     }
 
     @Override
