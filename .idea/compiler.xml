@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AutoCarehub-Layered-Architecture" />
         <module name="supermarket" />
+        <module name="AutoCarehub-LayeredArchitecture" />
       </profile>
     </annotationProcessing>
   </component>

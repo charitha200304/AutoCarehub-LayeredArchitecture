@@ -4,31 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c01a13-d39f-4114-94a5-43a289c5358e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Inventory_Service_Details.java" afterDir="false" />
+    <list default="true" id="c8c01a13-d39f-4114-94a5-43a289c5358e" name="Changes" comment="1st commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Point_SystemBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Point_SystemBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Place_orderBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/Place_orderBOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/ServiceBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Impl/ServiceBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Place_orderBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/Place_orderBo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ServiceBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bo/custom/ServiceBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/Service_formController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/Service_formController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Inventory_itemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Inventory_itemDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Point_SystemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/Point_SystemDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/ServiceDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/ServiceDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/VehicleDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Impl/VehicleDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Point_SystemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/Point_SystemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDetailsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/custom/ServiceDetailsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Point_SystemBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Point_SystemBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Place_orderBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/Place_orderBOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/ServiceBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Impl/ServiceBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Place_orderBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/Place_orderBo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/bo/custom/ServiceBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/bo/custom/ServiceBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/controller/Service_formController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/controller/Service_formController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Inventory_itemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Inventory_itemDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Point_SystemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/Point_SystemDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/ServiceDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/ServiceDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/VehicleDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Impl/VehicleDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Point_SystemDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/Point_SystemDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/custom/ServiceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/dao/custom/ServiceDAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ms Computers/IdeaProjects/AutoCarehub-Layered-Architecture"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ms Computers/IdeaProjects/AutoCarehub-LayeredArchitecture&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +61,12 @@
       <workItem from="1720629854277" duration="181000" />
       <workItem from="1720630057294" duration="716000" />
       <workItem from="1720631269970" duration="17304000" />
+      <workItem from="1720690662895" duration="61000" />
+      <workItem from="1720690797776" duration="551000" />
+      <workItem from="1720797001225" duration="622000" />
+      <workItem from="1720853223377" duration="899000" />
+      <workItem from="1720855653491" duration="4604000" />
+      <workItem from="1720934733927" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1720631326126</created>
